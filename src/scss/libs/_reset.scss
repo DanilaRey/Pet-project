@@ -1,0 +1,56 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-size: 16;
+}
+.wrapper{
+    min-height: 100%;
+}
+
+*:before,
+*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+aside,
+nav,
+footer,
+header,
+section {
+    display: block;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}

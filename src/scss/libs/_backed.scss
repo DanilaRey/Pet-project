@@ -1,0 +1,110 @@
+.section__backed {
+    position: relative;
+    padding: 110px 0;
+    font-family: 'Metropolis';
+    width: 100%;
+    overflow-x: hidden;
+    background: #E5E5E5;
+}
+.backed__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #232427;
+    margin-bottom: 15px;
+    @media (min-width: $breakpoint1240) {
+        margin-left: 80px;
+    }
+    @media (max-width: $breakpoint1240) {
+        margin-left: 20px;
+    }
+    @media (max-width: $breakpoint992) {
+    }
+}
+.backed__sub-title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5E5C6C;
+    margin-bottom: 45px;
+    @media (max-width: $breakpoint1240) {
+        margin-left: 20px;
+    }
+    @media (min-width: $breakpoint1240) {
+        margin-left: 80px;
+    }
+    @media (max-width: $breakpoint992) {
+        margin-right: 15px;
+     }
+}
+.backed {
+}
+.backed__even {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.backed__even .backed__item:nth-child(even) {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 144px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+.backed__odd {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px ;
+}
+.backed__odd .backed__item:nth-child(odd) {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 144px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+}
+
+.backed__item {
+    padding: 20px 20px 35px 20px;
+    border-radius: 4px;
+    background: rgb(236, 236, 236);
+    @media (max-width: $breakpoint1240) {
+        flex: 0  1 28%;
+        width: 100%;
+        margin-right: 20px;
+    }
+}
+
+.backed__img img{
+    margin-bottom: 15px;
+    width: 215px;
+    height: auto;
+    @media (max-width: $breakpoint1240) {
+        width: auto;
+        height: auto;
+    }
+    @media (max-width: $breakpoint768) {
+        width: 400px;
+        height: auto;
+    }
+    @media (max-width: $breakpoint480) {
+        width: 300px;
+        height: auto;
+    }
+}
+.backed__name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #232427;
+}
+
+.backed__twitter {
+
+}
+.backed__links {
+    margin-left: 7px;
+}

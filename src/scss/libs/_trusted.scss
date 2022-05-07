@@ -1,0 +1,42 @@
+.section__trusted {
+    position: relative;
+    overflow: hidden;
+    font-family: "Metropolis";
+    width: 100%;
+    text-align: center;
+    background: #FAF9FA;
+    padding-bottom: 110px;
+}
+
+.trusted__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #232427;
+    padding-top: 50px;
+    margin-bottom: 46px;
+    @media (max-width: $breakpoint768) {
+        font-size: 22px;
+
+    }
+    @media (max-width: $breakpoint480) {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+}
+.trusted {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px ;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: $breakpoint480) {
+        gap: 30px;
+    }
+}
+.trusted__item {
+    text-align: center;
+    flex: 0 1 130px;
+}

@@ -1,0 +1,15 @@
+// Container & Breakpoints
+@use "sass:math";
+$containerWidth: 1200;
+$containerPadding: 20;
+$containerSidePadding: math.div($containerPadding, 2);
+$breakpoint1400: 1339+px;
+$breakpoint1240: 1239+px;
+$breakpoint1115: 1114+px;
+$breakpoint992: 991+px;
+$breakpoint768: 767+px;
+$breakpoint480: 479+px;
+
+
+//Fonts
+$fontMain: sans-serif;
